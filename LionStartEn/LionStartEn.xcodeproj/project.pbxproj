@@ -1,0 +1,722 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18770E3419AB97B8001B381D /* LionLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18770E3319AB97B8001B381D /* LionLoginView.m */; };
+		187A8FAC19B0BEA800FCCC9E /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 187A8FAB19B0BEA800FCCC9E /* apple.png */; };
+		187A8FAF19B0E03200FCCC9E /* LionSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A8FAE19B0E03200FCCC9E /* LionSettingViewController.m */; };
+		188D549319AF0EC2005C9991 /* LionVoice.m in Sources */ = {isa = PBXBuildFile; fileRef = 188D549219AF0EC2005C9991 /* LionVoice.m */; };
+		188D549519AF0FDE005C9991 /* LionPicLine.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188D549419AF0FDE005C9991 /* LionPicLine.xib */; };
+		188D549719AF14B9005C9991 /* LionVoiceJudge.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188D549619AF14B9005C9991 /* LionVoiceJudge.xib */; };
+		188D549919AF17BA005C9991 /* LionPicJudge.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188D549819AF17BA005C9991 /* LionPicJudge.xib */; };
+		188D549F19AF3221005C9991 /* A.png in Resources */ = {isa = PBXBuildFile; fileRef = 188D549B19AF3221005C9991 /* A.png */; };
+		188D54A019AF3221005C9991 /* B.png in Resources */ = {isa = PBXBuildFile; fileRef = 188D549C19AF3221005C9991 /* B.png */; };
+		188D54A119AF3221005C9991 /* C.png in Resources */ = {isa = PBXBuildFile; fileRef = 188D549D19AF3221005C9991 /* C.png */; };
+		188D54A219AF3221005C9991 /* D.png in Resources */ = {isa = PBXBuildFile; fileRef = 188D549E19AF3221005C9991 /* D.png */; };
+		189584B019AB997E0012EDAF /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189584AF19AB997E0012EDAF /* LoginView.xib */; };
+		189584B419AB9F990012EDAF /* usert.png in Resources */ = {isa = PBXBuildFile; fileRef = 189584B119AB9F990012EDAF /* usert.png */; };
+		189584B519AB9F990012EDAF /* password.png in Resources */ = {isa = PBXBuildFile; fileRef = 189584B219AB9F990012EDAF /* password.png */; };
+		189584B619AB9F990012EDAF /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 189584B319AB9F990012EDAF /* user.png */; };
+		18CA617119ADBD1700C4BBB8 /* LionTiming.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA617019ADBD1700C4BBB8 /* LionTiming.m */; };
+		18CA617319ADCD6600C4BBB8 /* Unit1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18CA617219ADCD6600C4BBB8 /* Unit1.plist */; };
+		18CA617719ADD5A600C4BBB8 /* LionWordLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA617619ADD5A600C4BBB8 /* LionWordLine.m */; };
+		18CA617A19ADD5EC00C4BBB8 /* LionPicLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA617919ADD5EC00C4BBB8 /* LionPicLine.m */; };
+		18CA617D19ADD65C00C4BBB8 /* LionVoiceJudge.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA617C19ADD65C00C4BBB8 /* LionVoiceJudge.m */; };
+		18CA618A19ADD68500C4BBB8 /* LionPicJudge.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA618919ADD68500C4BBB8 /* LionPicJudge.m */; };
+		18CA618C19ADD8A600C4BBB8 /* LionWordLine.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18CA618B19ADD8A600C4BBB8 /* LionWordLine.xib */; };
+		18CA619319ADDE5A00C4BBB8 /* LionStudyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA619119ADDE5A00C4BBB8 /* LionStudyViewController.m */; };
+		18CA619419ADDE5A00C4BBB8 /* LionStudyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18CA619219ADDE5A00C4BBB8 /* LionStudyViewController.xib */; };
+		18CB243519B037F00070E9C3 /* MCSoundBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CB243419B037F00070E9C3 /* MCSoundBoard.m */; };
+		18CB243A19B05BCE0070E9C3 /* no_hand.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CB243619B05BCE0070E9C3 /* no_hand.png */; };
+		18CB243B19B05BCE0070E9C3 /* yes_hand.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CB243719B05BCE0070E9C3 /* yes_hand.png */; };
+		18CB243C19B05BCE0070E9C3 /* no.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CB243819B05BCE0070E9C3 /* no.png */; };
+		18CB243D19B05BCE0070E9C3 /* yes.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CB243919B05BCE0070E9C3 /* yes.png */; };
+		18CB244019B075F20070E9C3 /* right.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18CB243E19B075F20070E9C3 /* right.wav */; };
+		18CB244119B075F20070E9C3 /* wrong.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18CB243F19B075F20070E9C3 /* wrong.wav */; };
+		18D5B64919A4A8AC0007B307 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D5B64819A4A8AC0007B307 /* Foundation.framework */; };
+		18D5B64B19A4A8AC0007B307 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D5B64A19A4A8AC0007B307 /* CoreGraphics.framework */; };
+		18D5B64D19A4A8AC0007B307 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D5B64C19A4A8AC0007B307 /* UIKit.framework */; };
+		18D5B65319A4A8AC0007B307 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18D5B65119A4A8AC0007B307 /* InfoPlist.strings */; };
+		18D5B65519A4A8AC0007B307 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D5B65419A4A8AC0007B307 /* main.m */; };
+		18D5B65919A4A8AC0007B307 /* LionAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D5B65819A4A8AC0007B307 /* LionAppDelegate.m */; };
+		18D5B65B19A4A8AC0007B307 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D5B65A19A4A8AC0007B307 /* Images.xcassets */; };
+		18D5B66219A4A8AC0007B307 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D5B66119A4A8AC0007B307 /* XCTest.framework */; };
+		18D5B66319A4A8AC0007B307 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D5B64819A4A8AC0007B307 /* Foundation.framework */; };
+		18D5B66419A4A8AC0007B307 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D5B64C19A4A8AC0007B307 /* UIKit.framework */; };
+		18D5B66C19A4A8AC0007B307 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18D5B66A19A4A8AC0007B307 /* InfoPlist.strings */; };
+		18D5B66E19A4A8AC0007B307 /* LionStartEnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D5B66D19A4A8AC0007B307 /* LionStartEnTests.m */; };
+		18D5B67D19A4AB2E0007B307 /* LionLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D5B67C19A4AB2E0007B307 /* LionLoginViewController.m */; };
+		18F1911219AC27F6000BDC21 /* LionStartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F1911019AC27F6000BDC21 /* LionStartViewController.m */; };
+		18F1911319AC27F6000BDC21 /* LionStartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18F1911119AC27F6000BDC21 /* LionStartViewController.xib */; };
+		18F1911A19AC2D12000BDC21 /* LionThridTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F1911819AC2D12000BDC21 /* LionThridTableViewCell.m */; };
+		18F1911B19AC2D12000BDC21 /* LionThridTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18F1911919AC2D12000BDC21 /* LionThridTableViewCell.xib */; };
+		18F1911E19AC37FA000BDC21 /* LionTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F1911D19AC37FA000BDC21 /* LionTableView.m */; };
+		18F1912019AC45DC000BDC21 /* ClassData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18F1911F19AC45DC000BDC21 /* ClassData.plist */; };
+		18F1912319AC6915000BDC21 /* PieChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F1912219AC6915000BDC21 /* PieChartView.m */; };
+		18F1912519AC76E5000BDC21 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F1912419AC76E5000BDC21 /* QuartzCore.framework */; };
+		18F1A6C719AF601700C21C45 /* apple.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18F1A6C519AF601700C21C45 /* apple.wav */; };
+		18F1A6C819AF601700C21C45 /* banana.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18F1A6C619AF601700C21C45 /* banana.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18D5B66519A4A8AC0007B307 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18D5B63D19A4A8AC0007B307 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18D5B64419A4A8AC0007B307;
+			remoteInfo = LionStartEn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18770E3219AB97B8001B381D /* LionLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LionLoginView.h; sourceTree = "<group>"; };
+		18770E3319AB97B8001B381D /* LionLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LionLoginView.m; sourceTree = "<group>"; };
+		187A8FAB19B0BEA800FCCC9E /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
+		187A8FAD19B0E03200FCCC9E /* LionSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LionSettingViewController.h; sourceTree = "<group>"; };
+		187A8FAE19B0E03200FCCC9E /* LionSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LionSettingViewController.m; sourceTree = "<group>"; };
+		188D549119AF0EC2005C9991 /* LionVoice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LionVoice.h; sourceTree = "<group>"; };
+		188D549219AF0EC2005C9991 /* LionVoice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LionVoice.m; sourceTree = "<group>"; };
+		188D549419AF0FDE005C9991 /* LionPicLine.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LionPicLine.xib; sourceTree = "<group>"; };
+		188D549619AF14B9005C9991 /* LionVoiceJudge.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LionVoiceJudge.xib; sourceTree = "<group>"; };
+		188D549819AF17BA005C9991 /* LionPicJudge.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LionPicJudge.xib; sourceTree = "<group>"; };
+		188D549B19AF3221005C9991 /* A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A.png; sourceTree = "<group>"; };
+		188D549C19AF3221005C9991 /* B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = B.png; sourceTree = "<group>"; };
+		188D549D19AF3221005C9991 /* C.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = C.png; sourceTree = "<group>"; };
+		188D549E19AF3221005C9991 /* D.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = D.png; sourceTree = "<group>"; };
+		189584AF19AB997E0012EDAF /* LoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginView.xib; sourceTree = "<group>"; };
+		189584B119AB9F990012EDAF /* usert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = usert.png; sourceTree = "<group>"; };
+		189584B219AB9F990012EDAF /* password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = password.png; sourceTree = "<group>"; };
+		189584B319AB9F990012EDAF /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		18CA616F19ADBD1700C4BBB8 /* LionTiming.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LionTiming.h; sourceTree = "<group>"; };
+		18CA617019ADBD1700C4BBB8 /* LionTiming.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LionTiming.m; sourceTree = "<group>"; };
+		18CA617219ADCD6600C4BBB8 /* Unit1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Unit1.plist; sourceTree = "<group>"; };
+		18CA617519ADD5A600C4BBB8 /* LionWordLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LionWordLine.h; sourceTree = "<group>"; };
+		18CA617619ADD5A600C4BBB8 /* LionWordLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LionWordLine.m; sourceTree = "<group>"; };
+		18CA617819ADD5EC00C4BBB8 /* LionPicLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LionPicLine.h; sourceTree = "<group>"; };
+		18CA617919ADD5EC00C4BBB8 /* LionPicLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LionPicLine.m; sourceTree = "<group>"; };
+		18CA617B19ADD65C00C4BBB8 /* LionVoiceJudge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LionVoiceJudge.h; sourceTree = "<group>"; };
+		18CA617C19ADD65C00C4BBB8 /* LionVoiceJudge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LionVoiceJudge.m; sourceTree = "<group>"; };
+		18CA618819ADD68500C4BBB8 /* LionPicJudge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LionPicJudge.h; sourceTree = "<group>"; };
+		18CA618919ADD68500C4BBB8 /* LionPicJudge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LionPicJudge.m; sourceTree = "<group>"; };
+		18CA618B19ADD8A600C4BBB8 /* LionWordLine.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LionWordLine.xib; sourceTree = "<group>"; };
+		18CA619019ADDE5A00C4BBB8 /* LionStudyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LionStudyViewController.h; sourceTree = "<group>"; };
+		18CA619119ADDE5A00C4BBB8 /* LionStudyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LionStudyViewController.m; sourceTree = "<group>"; };
+		18CA619219ADDE5A00C4BBB8 /* LionStudyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LionStudyViewController.xib; sourceTree = "<group>"; };
+		18CB243319B037F00070E9C3 /* MCSoundBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSoundBoard.h; sourceTree = "<group>"; };
+		18CB243419B037F00070E9C3 /* MCSoundBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCSoundBoard.m; sourceTree = "<group>"; };
+		18CB243619B05BCE0070E9C3 /* no_hand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = no_hand.png; sourceTree = "<group>"; };
+		18CB243719B05BCE0070E9C3 /* yes_hand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yes_hand.png; sourceTree = "<group>"; };
+		18CB243819B05BCE0070E9C3 /* no.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = no.png; sourceTree = "<group>"; };
+		18CB243919B05BCE0070E9C3 /* yes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yes.png; sourceTree = "<group>"; };
+		18CB243E19B075F20070E9C3 /* right.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = right.wav; sourceTree = "<group>"; };
+		18CB243F19B075F20070E9C3 /* wrong.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = wrong.wav; sourceTree = "<group>"; };
+		18D5B64519A4A8AC0007B307 /* LionStartEn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LionStartEn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D5B64819A4A8AC0007B307 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18D5B64A19A4A8AC0007B307 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18D5B64C19A4A8AC0007B307 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18D5B65019A4A8AC0007B307 /* LionStartEn-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LionStartEn-Info.plist"; sourceTree = "<group>"; };
+		18D5B65219A4A8AC0007B307 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18D5B65419A4A8AC0007B307 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18D5B65619A4A8AC0007B307 /* LionStartEn-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LionStartEn-Prefix.pch"; sourceTree = "<group>"; };
+		18D5B65719A4A8AC0007B307 /* LionAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LionAppDelegate.h; sourceTree = "<group>"; };
+		18D5B65819A4A8AC0007B307 /* LionAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LionAppDelegate.m; sourceTree = "<group>"; };
+		18D5B65A19A4A8AC0007B307 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		18D5B66019A4A8AC0007B307 /* LionStartEnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LionStartEnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D5B66119A4A8AC0007B307 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		18D5B66919A4A8AC0007B307 /* LionStartEnTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LionStartEnTests-Info.plist"; sourceTree = "<group>"; };
+		18D5B66B19A4A8AC0007B307 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18D5B66D19A4A8AC0007B307 /* LionStartEnTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LionStartEnTests.m; sourceTree = "<group>"; };
+		18D5B67B19A4AB2E0007B307 /* LionLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LionLoginViewController.h; sourceTree = "<group>"; };
+		18D5B67C19A4AB2E0007B307 /* LionLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LionLoginViewController.m; sourceTree = "<group>"; };
+		18F1910F19AC27F6000BDC21 /* LionStartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LionStartViewController.h; sourceTree = "<group>"; };
+		18F1911019AC27F6000BDC21 /* LionStartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LionStartViewController.m; sourceTree = "<group>"; };
+		18F1911119AC27F6000BDC21 /* LionStartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LionStartViewController.xib; sourceTree = "<group>"; };
+		18F1911719AC2D12000BDC21 /* LionThridTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LionThridTableViewCell.h; sourceTree = "<group>"; };
+		18F1911819AC2D12000BDC21 /* LionThridTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LionThridTableViewCell.m; sourceTree = "<group>"; };
+		18F1911919AC2D12000BDC21 /* LionThridTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LionThridTableViewCell.xib; sourceTree = "<group>"; };
+		18F1911C19AC37FA000BDC21 /* LionTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LionTableView.h; sourceTree = "<group>"; };
+		18F1911D19AC37FA000BDC21 /* LionTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LionTableView.m; sourceTree = "<group>"; };
+		18F1911F19AC45DC000BDC21 /* ClassData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ClassData.plist; sourceTree = "<group>"; };
+		18F1912119AC6915000BDC21 /* PieChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieChartView.h; sourceTree = "<group>"; };
+		18F1912219AC6915000BDC21 /* PieChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieChartView.m; sourceTree = "<group>"; };
+		18F1912419AC76E5000BDC21 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		18F1A6C519AF601700C21C45 /* apple.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = apple.wav; sourceTree = "<group>"; };
+		18F1A6C619AF601700C21C45 /* banana.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = banana.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18D5B64219A4A8AC0007B307 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F1912519AC76E5000BDC21 /* QuartzCore.framework in Frameworks */,
+				18D5B64B19A4A8AC0007B307 /* CoreGraphics.framework in Frameworks */,
+				18D5B64D19A4A8AC0007B307 /* UIKit.framework in Frameworks */,
+				18D5B64919A4A8AC0007B307 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D5B65D19A4A8AC0007B307 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D5B66219A4A8AC0007B307 /* XCTest.framework in Frameworks */,
+				18D5B66419A4A8AC0007B307 /* UIKit.framework in Frameworks */,
+				18D5B66319A4A8AC0007B307 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		188D549019AF0EC2005C9991 /* voice */ = {
+			isa = PBXGroup;
+			children = (
+				188D549119AF0EC2005C9991 /* LionVoice.h */,
+				188D549219AF0EC2005C9991 /* LionVoice.m */,
+				18CB243319B037F00070E9C3 /* MCSoundBoard.h */,
+				18CB243419B037F00070E9C3 /* MCSoundBoard.m */,
+			);
+			path = voice;
+			sourceTree = "<group>";
+		};
+		188D549A19AF3221005C9991 /* Unit_Class1 */ = {
+			isa = PBXGroup;
+			children = (
+				188D549B19AF3221005C9991 /* A.png */,
+				188D549C19AF3221005C9991 /* B.png */,
+				188D549D19AF3221005C9991 /* C.png */,
+				188D549E19AF3221005C9991 /* D.png */,
+			);
+			path = Unit_Class1;
+			sourceTree = "<group>";
+		};
+		18CA616E19ADBCE200C4BBB8 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				188D549019AF0EC2005C9991 /* voice */,
+				18CA616F19ADBD1700C4BBB8 /* LionTiming.h */,
+				18CA617019ADBD1700C4BBB8 /* LionTiming.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		18CA617419ADD57F00C4BBB8 /* StudyView */ = {
+			isa = PBXGroup;
+			children = (
+				18CA617519ADD5A600C4BBB8 /* LionWordLine.h */,
+				18CA617619ADD5A600C4BBB8 /* LionWordLine.m */,
+				18CA618B19ADD8A600C4BBB8 /* LionWordLine.xib */,
+				18CA617819ADD5EC00C4BBB8 /* LionPicLine.h */,
+				18CA617919ADD5EC00C4BBB8 /* LionPicLine.m */,
+				188D549419AF0FDE005C9991 /* LionPicLine.xib */,
+				18CA617B19ADD65C00C4BBB8 /* LionVoiceJudge.h */,
+				18CA617C19ADD65C00C4BBB8 /* LionVoiceJudge.m */,
+				188D549619AF14B9005C9991 /* LionVoiceJudge.xib */,
+				18CA618819ADD68500C4BBB8 /* LionPicJudge.h */,
+				18CA618919ADD68500C4BBB8 /* LionPicJudge.m */,
+				188D549819AF17BA005C9991 /* LionPicJudge.xib */,
+				18CA619019ADDE5A00C4BBB8 /* LionStudyViewController.h */,
+				18CA619119ADDE5A00C4BBB8 /* LionStudyViewController.m */,
+				18CA619219ADDE5A00C4BBB8 /* LionStudyViewController.xib */,
+			);
+			name = StudyView;
+			path = LionStartEn/StudyView;
+			sourceTree = SOURCE_ROOT;
+		};
+		18D5B63C19A4A8AC0007B307 = {
+			isa = PBXGroup;
+			children = (
+				18D5B64E19A4A8AC0007B307 /* LionStartEn */,
+				18D5B66719A4A8AC0007B307 /* LionStartEnTests */,
+				18D5B64719A4A8AC0007B307 /* Frameworks */,
+				18D5B64619A4A8AC0007B307 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18D5B64619A4A8AC0007B307 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18D5B64519A4A8AC0007B307 /* LionStartEn.app */,
+				18D5B66019A4A8AC0007B307 /* LionStartEnTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18D5B64719A4A8AC0007B307 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18F1912419AC76E5000BDC21 /* QuartzCore.framework */,
+				18D5B64819A4A8AC0007B307 /* Foundation.framework */,
+				18D5B64A19A4A8AC0007B307 /* CoreGraphics.framework */,
+				18D5B64C19A4A8AC0007B307 /* UIKit.framework */,
+				18D5B66119A4A8AC0007B307 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18D5B64E19A4A8AC0007B307 /* LionStartEn */ = {
+			isa = PBXGroup;
+			children = (
+				18CA616E19ADBCE200C4BBB8 /* Class */,
+				18D5B65719A4A8AC0007B307 /* LionAppDelegate.h */,
+				18D5B65819A4A8AC0007B307 /* LionAppDelegate.m */,
+				18D5B67719A4AB110007B307 /* ImageSourse */,
+				18CA617419ADD57F00C4BBB8 /* StudyView */,
+				18D5B67819A4AB110007B307 /* Starting */,
+				18D5B67919A4AB110007B307 /* Setting */,
+				18D5B67A19A4AB110007B307 /* Login */,
+				18D5B65A19A4A8AC0007B307 /* Images.xcassets */,
+				18D5B64F19A4A8AC0007B307 /* Supporting Files */,
+			);
+			path = LionStartEn;
+			sourceTree = "<group>";
+		};
+		18D5B64F19A4A8AC0007B307 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18D5B65019A4A8AC0007B307 /* LionStartEn-Info.plist */,
+				18D5B65119A4A8AC0007B307 /* InfoPlist.strings */,
+				18D5B65419A4A8AC0007B307 /* main.m */,
+				18D5B65619A4A8AC0007B307 /* LionStartEn-Prefix.pch */,
+				18F1911F19AC45DC000BDC21 /* ClassData.plist */,
+				18CA617219ADCD6600C4BBB8 /* Unit1.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18D5B66719A4A8AC0007B307 /* LionStartEnTests */ = {
+			isa = PBXGroup;
+			children = (
+				18D5B66D19A4A8AC0007B307 /* LionStartEnTests.m */,
+				18D5B66819A4A8AC0007B307 /* Supporting Files */,
+			);
+			path = LionStartEnTests;
+			sourceTree = "<group>";
+		};
+		18D5B66819A4A8AC0007B307 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18D5B66919A4A8AC0007B307 /* LionStartEnTests-Info.plist */,
+				18D5B66A19A4A8AC0007B307 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18D5B67719A4AB110007B307 /* ImageSourse */ = {
+			isa = PBXGroup;
+			children = (
+				18CB243E19B075F20070E9C3 /* right.wav */,
+				18CB243F19B075F20070E9C3 /* wrong.wav */,
+				18CB243619B05BCE0070E9C3 /* no_hand.png */,
+				18CB243719B05BCE0070E9C3 /* yes_hand.png */,
+				18CB243819B05BCE0070E9C3 /* no.png */,
+				18CB243919B05BCE0070E9C3 /* yes.png */,
+				18F1A6C519AF601700C21C45 /* apple.wav */,
+				18F1A6C619AF601700C21C45 /* banana.wav */,
+				187A8FAB19B0BEA800FCCC9E /* apple.png */,
+				188D549A19AF3221005C9991 /* Unit_Class1 */,
+				189584B119AB9F990012EDAF /* usert.png */,
+				189584B219AB9F990012EDAF /* password.png */,
+				189584B319AB9F990012EDAF /* user.png */,
+			);
+			path = ImageSourse;
+			sourceTree = "<group>";
+		};
+		18D5B67819A4AB110007B307 /* Starting */ = {
+			isa = PBXGroup;
+			children = (
+				18F1910F19AC27F6000BDC21 /* LionStartViewController.h */,
+				18F1911019AC27F6000BDC21 /* LionStartViewController.m */,
+				18F1911119AC27F6000BDC21 /* LionStartViewController.xib */,
+				18F1911C19AC37FA000BDC21 /* LionTableView.h */,
+				18F1911D19AC37FA000BDC21 /* LionTableView.m */,
+				18F1911719AC2D12000BDC21 /* LionThridTableViewCell.h */,
+				18F1911819AC2D12000BDC21 /* LionThridTableViewCell.m */,
+				18F1911919AC2D12000BDC21 /* LionThridTableViewCell.xib */,
+				18F1912119AC6915000BDC21 /* PieChartView.h */,
+				18F1912219AC6915000BDC21 /* PieChartView.m */,
+			);
+			path = Starting;
+			sourceTree = "<group>";
+		};
+		18D5B67919A4AB110007B307 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				187A8FAD19B0E03200FCCC9E /* LionSettingViewController.h */,
+				187A8FAE19B0E03200FCCC9E /* LionSettingViewController.m */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		18D5B67A19A4AB110007B307 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				18D5B67B19A4AB2E0007B307 /* LionLoginViewController.h */,
+				18D5B67C19A4AB2E0007B307 /* LionLoginViewController.m */,
+				18770E3219AB97B8001B381D /* LionLoginView.h */,
+				18770E3319AB97B8001B381D /* LionLoginView.m */,
+				189584AF19AB997E0012EDAF /* LoginView.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18D5B64419A4A8AC0007B307 /* LionStartEn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D5B67119A4A8AC0007B307 /* Build configuration list for PBXNativeTarget "LionStartEn" */;
+			buildPhases = (
+				18D5B64119A4A8AC0007B307 /* Sources */,
+				18D5B64219A4A8AC0007B307 /* Frameworks */,
+				18D5B64319A4A8AC0007B307 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LionStartEn;
+			productName = LionStartEn;
+			productReference = 18D5B64519A4A8AC0007B307 /* LionStartEn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18D5B65F19A4A8AC0007B307 /* LionStartEnTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D5B67419A4A8AC0007B307 /* Build configuration list for PBXNativeTarget "LionStartEnTests" */;
+			buildPhases = (
+				18D5B65C19A4A8AC0007B307 /* Sources */,
+				18D5B65D19A4A8AC0007B307 /* Frameworks */,
+				18D5B65E19A4A8AC0007B307 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18D5B66619A4A8AC0007B307 /* PBXTargetDependency */,
+			);
+			name = LionStartEnTests;
+			productName = LionStartEnTests;
+			productReference = 18D5B66019A4A8AC0007B307 /* LionStartEnTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18D5B63D19A4A8AC0007B307 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Lion;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					18D5B65F19A4A8AC0007B307 = {
+						TestTargetID = 18D5B64419A4A8AC0007B307;
+					};
+				};
+			};
+			buildConfigurationList = 18D5B64019A4A8AC0007B307 /* Build configuration list for PBXProject "LionStartEn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18D5B63C19A4A8AC0007B307;
+			productRefGroup = 18D5B64619A4A8AC0007B307 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18D5B64419A4A8AC0007B307 /* LionStartEn */,
+				18D5B65F19A4A8AC0007B307 /* LionStartEnTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18D5B64319A4A8AC0007B307 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CB243C19B05BCE0070E9C3 /* no.png in Resources */,
+				18D5B65319A4A8AC0007B307 /* InfoPlist.strings in Resources */,
+				18F1A6C719AF601700C21C45 /* apple.wav in Resources */,
+				18CB244019B075F20070E9C3 /* right.wav in Resources */,
+				188D54A019AF3221005C9991 /* B.png in Resources */,
+				18CB243A19B05BCE0070E9C3 /* no_hand.png in Resources */,
+				18CA618C19ADD8A600C4BBB8 /* LionWordLine.xib in Resources */,
+				18F1A6C819AF601700C21C45 /* banana.wav in Resources */,
+				18F1912019AC45DC000BDC21 /* ClassData.plist in Resources */,
+				18CB244119B075F20070E9C3 /* wrong.wav in Resources */,
+				187A8FAC19B0BEA800FCCC9E /* apple.png in Resources */,
+				18D5B65B19A4A8AC0007B307 /* Images.xcassets in Resources */,
+				188D549919AF17BA005C9991 /* LionPicJudge.xib in Resources */,
+				18F1911319AC27F6000BDC21 /* LionStartViewController.xib in Resources */,
+				18CA617319ADCD6600C4BBB8 /* Unit1.plist in Resources */,
+				188D54A219AF3221005C9991 /* D.png in Resources */,
+				188D549719AF14B9005C9991 /* LionVoiceJudge.xib in Resources */,
+				188D54A119AF3221005C9991 /* C.png in Resources */,
+				18CA619419ADDE5A00C4BBB8 /* LionStudyViewController.xib in Resources */,
+				18CB243D19B05BCE0070E9C3 /* yes.png in Resources */,
+				188D549F19AF3221005C9991 /* A.png in Resources */,
+				18F1911B19AC2D12000BDC21 /* LionThridTableViewCell.xib in Resources */,
+				18CB243B19B05BCE0070E9C3 /* yes_hand.png in Resources */,
+				189584B619AB9F990012EDAF /* user.png in Resources */,
+				189584B519AB9F990012EDAF /* password.png in Resources */,
+				188D549519AF0FDE005C9991 /* LionPicLine.xib in Resources */,
+				189584B019AB997E0012EDAF /* LoginView.xib in Resources */,
+				189584B419AB9F990012EDAF /* usert.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D5B65E19A4A8AC0007B307 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D5B66C19A4A8AC0007B307 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18D5B64119A4A8AC0007B307 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F1911E19AC37FA000BDC21 /* LionTableView.m in Sources */,
+				18CA617A19ADD5EC00C4BBB8 /* LionPicLine.m in Sources */,
+				18CA617719ADD5A600C4BBB8 /* LionWordLine.m in Sources */,
+				18F1911219AC27F6000BDC21 /* LionStartViewController.m in Sources */,
+				18770E3419AB97B8001B381D /* LionLoginView.m in Sources */,
+				18F1911A19AC2D12000BDC21 /* LionThridTableViewCell.m in Sources */,
+				18F1912319AC6915000BDC21 /* PieChartView.m in Sources */,
+				18CA618A19ADD68500C4BBB8 /* LionPicJudge.m in Sources */,
+				18D5B65919A4A8AC0007B307 /* LionAppDelegate.m in Sources */,
+				18D5B67D19A4AB2E0007B307 /* LionLoginViewController.m in Sources */,
+				18CB243519B037F00070E9C3 /* MCSoundBoard.m in Sources */,
+				187A8FAF19B0E03200FCCC9E /* LionSettingViewController.m in Sources */,
+				18CA617119ADBD1700C4BBB8 /* LionTiming.m in Sources */,
+				18CA617D19ADD65C00C4BBB8 /* LionVoiceJudge.m in Sources */,
+				18CA619319ADDE5A00C4BBB8 /* LionStudyViewController.m in Sources */,
+				18D5B65519A4A8AC0007B307 /* main.m in Sources */,
+				188D549319AF0EC2005C9991 /* LionVoice.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D5B65C19A4A8AC0007B307 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D5B66E19A4A8AC0007B307 /* LionStartEnTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18D5B66619A4A8AC0007B307 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18D5B64419A4A8AC0007B307 /* LionStartEn */;
+			targetProxy = 18D5B66519A4A8AC0007B307 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18D5B65119A4A8AC0007B307 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18D5B65219A4A8AC0007B307 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		18D5B66A19A4A8AC0007B307 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18D5B66B19A4A8AC0007B307 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18D5B66F19A4A8AC0007B307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18D5B67019A4A8AC0007B307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18D5B67219A4A8AC0007B307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LionStartEn/LionStartEn-Prefix.pch";
+				INFOPLIST_FILE = "LionStartEn/LionStartEn-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		18D5B67319A4A8AC0007B307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LionStartEn/LionStartEn-Prefix.pch";
+				INFOPLIST_FILE = "LionStartEn/LionStartEn-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		18D5B67519A4A8AC0007B307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LionStartEn.app/LionStartEn";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LionStartEn/LionStartEn-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LionStartEnTests/LionStartEnTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		18D5B67619A4A8AC0007B307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LionStartEn.app/LionStartEn";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LionStartEn/LionStartEn-Prefix.pch";
+				INFOPLIST_FILE = "LionStartEnTests/LionStartEnTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18D5B64019A4A8AC0007B307 /* Build configuration list for PBXProject "LionStartEn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D5B66F19A4A8AC0007B307 /* Debug */,
+				18D5B67019A4A8AC0007B307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18D5B67119A4A8AC0007B307 /* Build configuration list for PBXNativeTarget "LionStartEn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D5B67219A4A8AC0007B307 /* Debug */,
+				18D5B67319A4A8AC0007B307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18D5B67419A4A8AC0007B307 /* Build configuration list for PBXNativeTarget "LionStartEnTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D5B67519A4A8AC0007B307 /* Debug */,
+				18D5B67619A4A8AC0007B307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18D5B63D19A4A8AC0007B307 /* Project object */;
+}
